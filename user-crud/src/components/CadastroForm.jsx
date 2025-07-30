@@ -27,7 +27,7 @@ const CadastroForm = () => {
       }
 
     } catch (error) {
-      alert("Erro ao conectar com o servidor.")
+      alert("Erro ao conectar com o servidor.", + error)
     }
   }
 
